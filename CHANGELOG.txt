@@ -3,6 +3,8 @@
 * Introduced Django 2.2 support.
 * Introduced Python 3.7 support.
 * Fixed test suite.
+* Fixed a bug where the fallback page title whould be returned istead of the one from the current language 
+
 
 
 === 3.6.0 (2019-01-29) ===
