@@ -1,10 +1,14 @@
-=== 3.7.0 (unreleased) ===
+=== 3.8.0 (unreleased) ===
+
+* Fixed a bug where the fallback page title whould be returned istead of the one from the current language 
+
+
+=== 3.7.0 (2019-09-25) ===
 
 * Introduced Django 2.2 support.
 * Introduced Python 3.7 support.
 * Fixed test suite.
-* Fixed a bug where the fallback page title whould be returned istead of the one from the current language 
-
+* Fixed override ``urlconf_module`` so that Django system checks don't crash.
 
 
 === 3.6.0 (2019-01-29) ===
